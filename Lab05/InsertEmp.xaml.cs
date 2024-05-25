@@ -29,7 +29,7 @@ namespace Lab05
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string connectionString = "Server=(localdb)\\local;Database=Neptuno;Integrated Security=true;";
+            string connectionString = "Data Source=LAPTOP-0ORAP2JU\\SQLEXPRESS; Initial Catalog=Neptuno; User Id=userXavier; Password=123456";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
